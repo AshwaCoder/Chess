@@ -1,5 +1,21 @@
+name: offline_chess_app
+description: "A Chess.com style offline chess app with bots and local pass-and-play."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
 dependencies:
   flutter:
     sdk: flutter
+  flutter_chess_board: ^1.0.1
   chess: ^0.8.1
-  flutter_chess_board: ^1.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
