@@ -1,0 +1,5 @@
+dependencies:
+  flutter:
+    sdk: flutter
+  chess: ^0.8.1
+  flutter_chess_board: ^1.0.3
