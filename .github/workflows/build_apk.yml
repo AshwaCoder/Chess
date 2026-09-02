@@ -26,7 +26,7 @@ jobs:
 
       - name: Recreate Android Project Scaffold
         run: |
-          flutter create . --org com.offlinechess.app --platforms=android
+          flutter create . --project-name offline_chess_app --org com.offlinechess.app --platforms=android
 
       - name: Install dependencies
         run: flutter pub get
