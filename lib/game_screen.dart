@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_chess_board/flutter_chess_board.dart';
-import 'package:chess/chess.dart' as chess_lib;
+import 'package:chess/chess.dart' as chess_lib hide Color;
 import 'bot_engine.dart';
 
 class GameScreen extends StatefulWidget {
